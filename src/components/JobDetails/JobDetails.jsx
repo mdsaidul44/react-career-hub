@@ -13,7 +13,7 @@ const JobDetails = () => {
     console.log(job)
 
     const handleApplyJob =() =>{
-        saveApplyJobApplication(id)
+        saveApplyJobApplication(idInt)
         toast('You have applied successfully')
     }
     return (
